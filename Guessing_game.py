@@ -8,7 +8,7 @@ time.sleep(1)
 print("Start guessing....")
 time.sleep(0.5)
 
-word = "deranged"
+word = "parswik"
 guess = ''
 turn = 8
 
