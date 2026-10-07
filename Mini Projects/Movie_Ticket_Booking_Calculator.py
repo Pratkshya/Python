@@ -30,6 +30,7 @@ else:
     print('No extra charges will be applied')
 print('Extra charges:', extra_charges)
 
+#priority based
 if age >= 21 or age >= 18 and (show_time != 'Evening' or is_member):
     print('Ticket booking condition satisfied')
 
