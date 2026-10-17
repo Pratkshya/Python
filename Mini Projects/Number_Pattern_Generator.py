@@ -7,5 +7,5 @@ def number_pattern(n):
     for num in range(1,n+1):
         pattern.append(str(num))
     return " ".join(pattern)
-result = number_pattern(10)
+result = number_pattern(11) #calling the function
 print(result)
