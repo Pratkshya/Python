@@ -1,5 +1,5 @@
 def pin_extractor(poems):
-    secret_codes = []
+    secret_codes = [] #empty list
     for poem in poems:
         secret_code = ''
         lines = poem.split('\n')
