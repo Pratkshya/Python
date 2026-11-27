@@ -39,7 +39,7 @@ def view_settings(test_settings):
         
 
 
-# print(add_setting({'theme': 'light'}, ('volume', 'high')))
-# print(update_setting({'theme': 'light', 'language': 'English'}, ('theme', 'dark')))
+print(add_setting({'theme': 'light'}, ('volume', 'high')))
+print(update_setting({'theme': 'light', 'language': 'English'}, ('theme', 'dark')))
 print(delete_setting({'theme': 'light', 'language': 'English'}, 'theme'))
 print(view_settings(test_settings))
